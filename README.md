@@ -30,3 +30,6 @@ Es crea el mètode score, i per defecte el return es -1. Al executar el test, el
 
 Fins ara, no hem implementat res de codi a la classe Game, ja que el nostre objectiu es passar el test. Però en el següent commit veurem que hem de retocar aquest mètode per poder passar el test correctament.
 
+##COMMIT 8
+Com hem dit a l'anterior commit el nostre objectiu es passar el test, i per tant fem return de 0. Un cop fet el canvi, el test s'executa correctament.
+
