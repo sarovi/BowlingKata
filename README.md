@@ -111,3 +111,5 @@ Si ens fixem en l'anterior commit la manera en que es calcula el score no es mol
 
 Per fer-ho més amigable i més entenedor, es crean dos mètodes privats anomenats spareBonus i strikeBonus.
 
+##COMMIT 25
+Com hem fet amb anterioritat, per tal de treure el comentari que ens indica que el primer if indica fer un strike, creem un mètode privat per mostrar que aquell if es fer un strike.
