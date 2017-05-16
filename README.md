@@ -72,3 +72,8 @@ Creem el tercer test i no s'executa correctament. Anem a analitzar el perquè:
 
 CONCLUSIÓ: El test esta mal dissenya, les responsabilitats dels mètodes no concorden amb els seus nom de capçalera.
 
+##COMMIT 16
+Adaptem el codi de la classe Game per poder passar els test.
+
+En aquest commit modifiquem el mètode roll, per tal de poder passar el test.
+
