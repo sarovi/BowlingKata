@@ -55,3 +55,6 @@ En aquest commit hem modificat el primer test afegint dos variables locals, una 
 
 ##COMMIT 12
 Es crea un mètode privat al test anomenat rollMany, per indicar quants rolls fem i el numero de pins tirats. Això ho fem perque s'utilitzava el mètode roll en els dos test i podem simplificar codi repetit mitjançant aquest mètode privat.
+
+##COMMIT 13
+En aquest commit simplement simplifiquem una mica el codi treient les dues variables locals del primer test i cridant el mètode rollMany passant-li com a paràmetres els números corresponents a les variables eliminades.
