@@ -43,11 +43,14 @@ public class BowlingGameTest extends TestCase{
 
     @Test
     public void testOneStrike() throws Exception {
-        g.roll(10); // strike
+        rollStrike();
         g.roll(3);
         g.roll(4);
         rollMany(16, 0);
         assertEquals(24, g.score());
+    }
+    private void rollStrike() {
+        g.roll(10);
     }
 
     private void rollSpare() {

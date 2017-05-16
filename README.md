@@ -113,3 +113,6 @@ Per fer-ho més amigable i més entenedor, es crean dos mètodes privats anomena
 
 ##COMMIT 25
 Com hem fet amb anterioritat, per tal de treure el comentari que ens indica que el primer if indica fer un strike, creem un mètode privat per mostrar que aquell if es fer un strike.
+
+##COMMIT 26
+Per tal de treure també el comentari en la classe del test, creem un mètode privat que es fer un rollSttrike().
