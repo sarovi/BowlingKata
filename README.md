@@ -89,3 +89,7 @@ Al fer l'execució del test funciona correctament.
 
 ##COMMIT 19
 Modifiquem el nom de la variable i del mètode score, ja que els noms de variable ens han de significar alguna cosa, no es correcta anomenar a una variable i.
+
+##COMMIT 20
+Si ens fixem amb l'anterior commit, hi havia un comentari dintre del mètode score() per mostrar que aquella condició era la condició de comptar punts si es feia un spare. Per evitar això hem creat un mètode privat anomenat isSpare.
+
