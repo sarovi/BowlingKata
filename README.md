@@ -24,3 +24,9 @@ Es vol provar que el contador de punts funcioni correctament. Per tant, si fem u
 Mitjançant el mètode assertEquals comparem que el resultat obtingut del mètode score sigui igual al resultat esperat que es 0. 
 
 Evidenment, no podem executar el test fins que creem el mètode en el pròxim commit.
+
+##COMMIT 7
+Es crea el mètode score, i per defecte el return es -1. Al executar el test, el test no passa ja que el resultat esperat es 0 i l'obtingut es -1.
+
+Fins ara, no hem implementat res de codi a la classe Game, ja que el nostre objectiu es passar el test. Però en el següent commit veurem que hem de retocar aquest mètode per poder passar el test correctament.
+
