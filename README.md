@@ -122,3 +122,16 @@ Per últim fem un cinquè test per indicar una partida on tot el que fem son str
 
 Ens funciona correctament el test ja que tenim tota la classe Game implementada correctament.
 
+##CONCLUSIONS
+En aquesta primera pràctia s'havia de fer un test aplicant la tècnica TDD, aquesta tècnica es per fer desenvolupament de software a partir del test. Per tant primer es crean les proves al test i a mesura que tenim una prova implementem aquella nova classe, mètode o funcionalitat per tal de passar el test.  
+
+Només s'han d'implementar les funcionalitats mínimes per passar correctament el test i que no ens doni cap error de compilació.
+
+A mesura que ha avançat la pràcica ens hem trobat amb els següents problemes i erros:
+1. Instàncies duplicades -> Si hem de traballar sobre una instància des de diferents test, no l'hem de duplicar, creem una al començar el test i treballem sobre aquesta.
+2. Mètodes privats per evitar duplicats -> Si hem de fer, com en el nostre cas molts rolls amb diferents parametres, creem un mètode privat a la classe test i ens evitem fer un for per cada test, d'aquesta manera ens quedarà un codi més net i sense repetits.
+3. Ens hem d'assegurar que els noms dels mètodes estiguin ben definits -> En un punt de la pràcica ens hem trobat en que el metode score només feia un return pero no comptabilitzava els punts per exemple.
+4. Els noms de les variables han de ser significatius.
+5. Evitar comentaris dintre dels mètodes -> En el nostre cas teniam un comentari per indicar que un if era la condició de fer spare, ho hem solventat mitjançant un mètode privat.
+6. Evitar comentaris dintre dels tests -> Com en el punt anterior també ho podem solventar amb mètodes privats.
+7. Evitar expresions dificils d'entendre -> Per exemple al hora de comptar els punts per un strike l'operació es feia llarga i dificil de llegir, per evitar això hem creat un mètode privat.
