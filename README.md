@@ -33,3 +33,12 @@ Fins ara, no hem implementat res de codi a la classe Game, ja que el nostre obje
 ##COMMIT 8
 Com hem dit a l'anterior commit el nostre objectiu es passar el test, i per tant fem return de 0. Un cop fet el canvi, el test s'executa correctament.
 
+##COMMIT 9
+Ara es vol provar de fer 20 rolls i tirar 1 pin a cada roll. Per tant s'obtindrà un total de 20 punts. 
+
+Com s'ha fet anteriorment, mitjançant el mètode assertEquals es comprova que s'hagin obtingut el 20 punts.
+
+No tenim errors de compilació perquè els mètodes que utilitzem en el test ja estavan creat de l'anterior test. 
+
+Però si que tenim error d'execució, ja que el nostre valor esperat és 20 i el resultat obtingut és 0. Això és degut a que el test funcionava correctament quant obteniem 0 punts però no per a altres valors.
+
