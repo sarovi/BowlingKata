@@ -42,3 +42,11 @@ No tenim errors de compilació perquè els mètodes que utilitzem en el test ja 
 
 Però si que tenim error d'execució, ja que el nostre valor esperat és 20 i el resultat obtingut és 0. Això és degut a que el test funcionava correctament quant obteniem 0 punts però no per a altres valors.
 
+##COMMIT 10
+Com hem vist en l'anterior commit s'ha de retocar el codi per tal de que els tests passin, a continuació s'explica les parts de codi canviades:
+
+1. A la classe Game necessitem una variable anomenada score per anar contant els punt, aquesta variable anirà sumant els punts obtinguts en cada roll. D'aquesta manera el mètode score ja podrà retornar els punts correctament comptats.
+2. A la classe BowlingGameTest s'ha creat un mètode setUp, on s'instancia a la classe Game. En el commit anterior per cada test teniam una instància, ara només traballarem sobre la mateixa intància i no la tindrem duplicada.
+
+Els dos tests fets fins ara s'executen correctament.
+

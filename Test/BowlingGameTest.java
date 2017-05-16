@@ -8,15 +8,23 @@ import org.junit.Test;
  * Created by Sara on 15/05/2017.
  */
 public class BowlingGameTest extends TestCase{
+
+    private Game g;
+
+    @Before
+    protected void setUp() throws Exception {
+        g = new Game();
+    }
+
+    @Test
     public void testGutterGame() throws Exception {
-        Game g = new Game();
-        for (int i=0; i<20; i++)
+        for (int i = 0; i < 20; i++)
             g.roll(0);
         assertEquals(0, g.score());
     }
 
+    @Test
     public void testAllOnes() throws Exception {
-        Game g = new Game();
         for (int i = 0; i < 20; i++)
             g.roll(1);
         assertEquals(20, g.score());
