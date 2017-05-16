@@ -58,3 +58,6 @@ Es crea un mètode privat al test anomenat rollMany, per indicar quants rolls fe
 
 ##COMMIT 13
 En aquest commit simplement simplifiquem una mica el codi treient les dues variables locals del primer test i cridant el mètode rollMany passant-li com a paràmetres els números corresponents a les variables eliminades.
+
+##COMMIT 14
+Apliquem els canvis en el segon test, per tant substituim el for per el mètode rollMany.
