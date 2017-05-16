@@ -14,3 +14,7 @@ En el tercer commit únicament s'ha creat la classe Game, i si ens fixem en el t
 
 ##COMMIT 4
 El següent que es vol provar es de fer un llançament. Per tant, des de la classe del test, cridem a un mètode anomenat roll. Un altre cop ens trobem a la situació de que el mètode no existeix i per tant en el següent commit l'haurem de crear.
+
+##COMMIT 5
+En aquest commit es crea el mètode roll a la classe game, d'aquesta manera el test ja es pot executar i el test passa correctament.
+
