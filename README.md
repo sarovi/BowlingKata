@@ -61,3 +61,14 @@ En aquest commit simplement simplifiquem una mica el codi treient les dues varia
 
 ##COMMIT 14
 Apliquem els canvis en el segon test, per tant substituim el for per el mètode rollMany.
+
+##COMMIT 15
+Ara es vol provar que al fer spare es comptin correctament els punts.
+
+Creem el tercer test i no s'executa correctament. Anem a analitzar el perquè:
+
+1. El mètode roll() si ens fixem calcuula la puntuació, pero el nom no ens indica això.
+2. El mètode score() no calcula la puntuació, només la retorna però el nom ens indica que la calcula.
+
+CONCLUSIÓ: El test esta mal dissenya, les responsabilitats dels mètodes no concorden amb els seus nom de capçalera.
+
