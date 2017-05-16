@@ -106,3 +106,8 @@ En aquest commit contemplem l'opció de fer un strike en el mètode score de la 
 
 Al modificar aquest mètode el test ja compila correctament.
 
+##COMMIT 24
+Si ens fixem en l'anterior commit la manera en que es calcula el score no es molt amigable, ja que es suma 10 a els punts de les dues següents tirades. I en el cas del spare es suma 10 a la pròxima tirada.
+
+Per fer-ho més amigable i més entenedor, es crean dos mètodes privats anomenats spareBonus i strikeBonus.
+
