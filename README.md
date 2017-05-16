@@ -10,4 +10,7 @@ En el segon commit es crea el primer test, en aquest primer test volem crear un 
 En aquesta pràctica es treballa amb TDD (Test Driven Development) aquesta tècnica de disseny e implementació del software es per desenvolupar a partir del test. Per tant sempre s'ha de crear primer el test, com acabem de fer en aquest commit i després es crea la classe Game com es mostrarà en el commit 3.
 
 ##COMMIT 3
-En el tercer commit únicament s'ha creat la classe Game, i si ens fixem en el test anterior, fet en el commit 2, ja no dona cap error de compilació.
+En el tercer commit únicament s'ha creat la classe Game, i si ens fixem en el test anterior, fet en el commit 2, ja no dona cap error de compilació ni d'execució, si executem el test ens funciona correctament.
+
+##COMMIT 4
+El següent que es vol provar es de fer un llançament. Per tant, des de la classe del test, cridem a un mètode anomenat roll. Un altre cop ens trobem a la situació de que el mètode no existeix i per tant en el següent commit l'haurem de crear.
