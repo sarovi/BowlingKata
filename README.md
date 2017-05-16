@@ -93,3 +93,8 @@ Modifiquem el nom de la variable i del mètode score, ja que els noms de variabl
 ##COMMIT 20
 Si ens fixem amb l'anterior commit, hi havia un comentari dintre del mètode score() per mostrar que aquella condició era la condició de comptar punts si es feia un spare. Per evitar això hem creat un mètode privat anomenat isSpare.
 
+##COMMIT 21
+Si ens fixem en el tercer test, tenim un comentari per undicar que volem provar la puntuació al fer un spare. Com hem fet anteriorment, per evitar els comentaris creem un mètode privat anomenat rollSpare().
+
+
+
