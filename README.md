@@ -101,5 +101,8 @@ Ara es vol provar de fer un strike, aquest és el nostre 4 test.
 
 No ens dona errors de compilació, però si d'execució ja que no tenim en compte, al comptar els punts a la classe Game(), la puntuació d'un strike.
 
+##COMMIT 23
+En aquest commit contemplem l'opció de fer un strike en el mètode score de la classe Game().
 
+Al modificar aquest mètode el test ja compila correctament.
 
