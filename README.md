@@ -116,3 +116,9 @@ Com hem fet amb anterioritat, per tal de treure el comentari que ens indica que 
 
 ##COMMIT 26
 Per tal de treure també el comentari en la classe del test, creem un mètode privat que es fer un rollSttrike().
+
+##COMMIT 27
+Per últim fem un cinquè test per indicar una partida on tot el que fem son strikes. 
+
+Ens funciona correctament el test ja que tenim tota la classe Game implementada correctament.
+
