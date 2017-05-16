@@ -82,3 +82,7 @@ Modifiquem el mètode score(), pero al descomentar el tercer test que teniam com
 
 Això es degut a que simplement volem adaptar el codi de la classe perquè passi el test sense tindre en compte les regles del joc quant es puntua amb un spare.
 
+##COMMIT 18
+Modifiquem el mètode score() per tal de comptabilitzar correctament, seguint les regles del joc, els punts obtinguts al fer un spare.
+
+Al fer l'execució del test funciona correctament.
