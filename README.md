@@ -86,3 +86,6 @@ Això es degut a que simplement volem adaptar el codi de la classe perquè passi
 Modifiquem el mètode score() per tal de comptabilitzar correctament, seguint les regles del joc, els punts obtinguts al fer un spare.
 
 Al fer l'execució del test funciona correctament.
+
+##COMMIT 19
+Modifiquem el nom de la variable i del mètode score, ja que els noms de variable ens han de significar alguna cosa, no es correcta anomenar a una variable i.
