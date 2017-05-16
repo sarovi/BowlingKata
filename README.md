@@ -96,5 +96,10 @@ Si ens fixem amb l'anterior commit, hi havia un comentari dintre del mètode sco
 ##COMMIT 21
 Si ens fixem en el tercer test, tenim un comentari per undicar que volem provar la puntuació al fer un spare. Com hem fet anteriorment, per evitar els comentaris creem un mètode privat anomenat rollSpare().
 
+##COMMIT 22
+Ara es vol provar de fer un strike, aquest és el nostre 4 test.
+
+No ens dona errors de compilació, però si d'execució ja que no tenim en compte, al comptar els punts a la classe Game(), la puntuació d'un strike.
+
 
 
