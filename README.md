@@ -50,3 +50,5 @@ Com hem vist en l'anterior commit s'ha de retocar el codi per tal de que els tes
 
 Els dos tests fets fins ara s'executen correctament.
 
+##COMMIT 11
+En aquest commit hem modificat el primer test afegint dos variables locals, una per comptar les vegades que fem roll i una per comptar el número de pins tirats en casa roll. 
