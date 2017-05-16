@@ -10,7 +10,11 @@ public class Game {
         score += pins;
         rolls[currentRoll++] = pins;
     }
+
     public int score() {
+        int score = 0;
+        for (int i = 0; i < rolls.length; i++)
+            score += rolls[i];
         return score;
     }
 }

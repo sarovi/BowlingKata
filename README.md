@@ -77,3 +77,8 @@ Adaptem el codi de la classe Game per poder passar els test.
 
 En aquest commit modifiquem el mètode roll, per tal de poder passar el test.
 
+##COMMIT 17
+Modifiquem el mètode score(), pero al descomentar el tercer test que teniam comentat, el test ens segueix sense compilar.
+
+Això es degut a que simplement volem adaptar el codi de la classe perquè passi el test sense tindre en compte les regles del joc quant es puntua amb un spare.
+
