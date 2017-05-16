@@ -18,3 +18,9 @@ El següent que es vol provar es de fer un llançament. Per tant, des de la clas
 ##COMMIT 5
 En aquest commit es crea el mètode roll a la classe game, d'aquesta manera el test ja es pot executar i el test passa correctament.
 
+##COMMIT 6
+Es vol provar que el contador de punts funcioni correctament. Per tant, si fem un roll de 0 pins, el resultat que esperem es el de 0. 
+
+Mitjançant el mètode assertEquals comparem que el resultat obtingut del mètode score sigui igual al resultat esperat que es 0. 
+
+Evidenment, no podem executar el test fins que creem el mètode en el pròxim commit.
